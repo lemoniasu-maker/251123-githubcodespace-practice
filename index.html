@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji Mood Selector</title>
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>오늘 기분은 어때요? 😊</h1>
+        <p>아래에서 기분을 선택해보세요!</p>
+        <div class="emoji-selector">
+            <button class="emoji" data-mood="happy">😊</button>
+            <button class="emoji" data-mood="sad">😢</button>
+            <button class="emoji" data-mood="angry">😡</button>
+            <button class="emoji" data-mood="excited">🤩</button>
+            <button class="emoji" data-mood="nervous">😰</button>
+        </div>
+        <div class="mood-display">
+            <p>선택한 기분: <span id="selected-mood">없음</span></p>
+        </div>
+    </div>
+    <script src="./src/main.js"></script>
+</body>
+</html>
